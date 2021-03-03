@@ -1,0 +1,39 @@
+body {
+  background: lightgray;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+#editorjs, #output {
+  flex: 1;
+}
+
+.ce-block__content {
+  background: white;
+  margin: 0.25em auto;
+  padding: 0.25em 0.5em;
+  border-radius: 0.5em;
+}
+
+pre {
+  position: relative;
+  max-width: 650px;
+  margin: 0 auto;
+  background: black;
+  color: white;
+  font-family: monospace;
+  padding: 8px;
+}
+
+.ce-tag {
+  font-size: 0.75em;
+  padding: 0.25em 1em;
+  border-radius: 0.7em;
+  background-color: blueviolet;
+  color: white;
+  margin: 0 0.25em;
+}
+.tag-irrelevant {
+  background-color: gray;
+}
